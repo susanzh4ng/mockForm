@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import SignUp from './SignUp.js';
 
 function App() { 
       const [formData, setFormData] = React.useState(
@@ -13,8 +14,6 @@ function App() {
         favColor: ""
       }
       )
-
-      console.log(formData.employment)
     
     function handleChange(event) {
         const {name, value, type, checked} = event.target
@@ -137,7 +136,8 @@ function App() {
 
 
 
-        <h1>Fake login</h1>
+        <h1>Fake signup</h1>
+        <SignUp />
 
     </div>
   );
