@@ -1,1 +1,1 @@
-# Reference for creating a form is React (frontend)
+# Reference for creating a form in React (frontend)
